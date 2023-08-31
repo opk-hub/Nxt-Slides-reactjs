@@ -1,0 +1,105 @@
+/* Default styles for all screen sizes */
+.slide-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.slide-number {
+  margin-left: 15px;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.slide-tab-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 130px;
+  margin: 25px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 2px 2px #bfbfbf;
+  padding: 10px 20px;
+}
+
+.tab-heading {
+  color: #0967d2;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5px 80px 10px 80px;
+}
+
+.active-styling {
+  background-color: #dbeafe;
+}
+
+.tab-description {
+  color: #334155;
+  margin: 5px 80px 10px 80px;
+}
+
+/* Media query for Medium screens (Size >= 768px) */
+@media (min-width: 768px) {
+  .slide-list-item {
+    margin: 10px;
+    padding: 10px 12px;
+  }
+
+  .slide-number {
+    margin-right: 8px;
+  }
+
+  .tab-heading {
+    margin: 5px 60px 10px 60px;
+  }
+
+  .tab-description {
+    margin: 5px 60px 10px 60px;
+  }
+}
+
+/* Media query for Large screens (Size >= 992px) */
+@media (min-width: 992px) {
+  .slide-list-item {
+    margin: 12px;
+    padding: 12px 14px;
+  }
+
+  .slide-number {
+    margin-right: 10px;
+  }
+
+  .tab-heading {
+    margin: 5px 50px 10px 50px;
+  }
+
+  .tab-description {
+    margin: 5px 50px 10px 50px;
+  }
+}
+
+/* Media query for Extra Large screens (Size >= 1200px) */
+@media (min-width: 1200px) {
+  .slide-list-item {
+    margin: 14px;
+    padding: 14px 16px;
+  }
+
+  .slide-number {
+    margin-right: 12px;
+  }
+
+  .tab-heading {
+    margin: 5px 40px 10px 40px;
+  }
+
+  .tab-description {
+    margin: 5px 40px 10px 40px;
+  }
+}

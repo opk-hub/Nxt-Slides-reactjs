@@ -1,0 +1,10 @@
+.slides-container {
+  display: flex;
+}
+
+.slides-list li {
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ffff;
+}

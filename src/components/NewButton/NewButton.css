@@ -1,0 +1,39 @@
+/* Default styles for all screen sizes */
+.add-new-button {
+  background-color: #dbeafe;
+  color: #0f172a;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.plus-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+/* Media query for Medium screens (Size >= 768px) */
+@media (min-width: 768px) {
+  .add-new-button {
+    padding: 12px 20px;
+  }
+}
+
+/* Media query for Large screens (Size >= 992px) */
+@media (min-width: 992px) {
+  .add-new-button {
+    padding: 16px 24px;
+  }
+}
+
+/* Media query for Extra Large screens (Size >= 1200px) */
+@media (min-width: 1200px) {
+  .add-new-button {
+    padding: 20px 28px;
+  }
+}

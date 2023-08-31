@@ -1,0 +1,40 @@
+/* Default styles for all screen sizes */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #dbeafe;
+  color: #fff;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Media query for Medium screens (Size >= 768px) */
+@media (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+/* Media query for Large screens (Size >= 992px) */
+@media (min-width: 992px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+/* Media query for Extra Large screens (Size >= 1200px) */
+@media (min-width: 1200px) {
+  .title {
+    font-size: 36px;
+  }
+}
